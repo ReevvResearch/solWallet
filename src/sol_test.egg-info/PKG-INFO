@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: sol_test
+Version: 0.1.0
+Summary: Solana integration tests
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: solana
+Requires-Dist: solders
+Requires-Dist: pytest
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+
+# Solana Python Integration
+
+A project to integrate with the Solana blockchain using solana-py.
+
+## Setup
+
+```
+pip install -e .
+```
+
+## Testing
+
+```
+pytest
+``` 
